@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                        <img src="https://static.vecteezy.com/system/resources/previews/000/621/594/non_2x/cat-flat-logo-vector.jpg" alt="logo" width="70">
+                    <a class="navbar-brand" href="#">PetHub</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Explorar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chuer.html">Chuer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Login</a>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Login-->
+    <main>
+        <div class = "LoginUsuario" style="text-align: center">
+            <label for="usuarioInput" class="from-label"><strong>Usuario</strong> </label>
+            <br>
+            <input type="text" id="usuarioInput" class="from-control"
+            aria-describedby="passWordHelpBlock" placeholder="Ingresa tu Usuario">
+            <br>
+            <label for="PasswordInput" class="from-label"><strong>Contraseña</strong></label>
+            <br>
+            <input type="password" id="PasswordInput" class="from-control"
+            aria-describedby="passWordHelpBlock" placeholder="Ingresa tu Contraseña">
+            <hr>
+        </div>
+        <br>
+        <button type="button" class="btn btn-success mx-auto d-block">Success</button>
+    </main>
+</body>
+</html>
